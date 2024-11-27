@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Bento grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <div class="grid-container grid bg-[#f5f5f5] sm:grid-rows-3 w-full h-[1029px] gap-6 grid-cols-1 grid-flow-row sm:grid-cols-4 py-12 px-3 sm:px-24">
+    <div class="grid-item flex flex-col order-1 grow h-full gap-2 justify-center items-center rounded-lg py-6 px-3 sm:py-3 sm:px-3 item-1 bg-[#7650DC] sm:col-start-2 sm:col-span-2">
+      <div class="flex text-white flex-col w-[80%] grow gap-2 justify-center items-center">
+        <h1 class="sm:text-5xl text-4xl text-center font-semibold">Social Media <span class="text-yellow-500">10x</span> faster with AI</h1>
+        <img src="./assets/images/illustration-five-stars.webp" class="w-36 mt-4" alt="five stars">
+        <div class="reviews text-md sm:text-xl">Over 4,000 5-star reviews</div>
+      </div>
+    </div>
+
+    <div class="grid-item flex flex-col sm:overflow-hidden p-3 sm:p-0 pt-8 order-2 gap-2 rounded-lg item-2 bg-white sm:col-start-2">
+      <img src="./assets/images/illustration-multiple-platforms.webp" class=" top-4 sm:relative left-6" alt="platforms">
+      <div class="manage-text sm:text-4xl text-[22px] font-semibold sm:mt-4 sm:px-6">Manage multiple accounts and platforms.</div>
+    </div>
+
+    <div class="grid-item rounded-lg order-3 w-full flex flex-col gap-6 sm:h-full h-[200px] overflow-hidden sm:overflow-hidden px-6 pt-3 sm:pt-6 item-3 bg-[#FFCB6B]">
+      <div class="maintain text-xl sm:text-3xl w-[80%] sm:w-[70%] font-bold sm:font-semibold">Maintain a consistent posting schedule.</div>
+      <img src="./assets/images/illustration-consistent-schedule.webp" class="w-[70%]" alt="date">
+    </div>
+
+    <div class="grid-item sm:overflow-hidden order-4 rounded-lg py-4 px-3 sm:px-0 sm:py-6 pl-3 flex flex-col gap-4 item-4 bg-[#DACFFC] sm:row-start-1 sm:row-span-2 sm:col-start-4">
+      <div class="schedule sm:text-3xl text-xl text-center sm:text-left font-semibold px-1 sm:px-6">Schedule to social media.</div>
+      <img src="./assets/images/illustration-schedule-posts.webp" class="sm:ml-6 w-72 h-full" alt="graph">
+      <p class="pr-3 sm:w-full w-[90%] sm:text-left sm:text-xl sm:px-6 text-center sm:self-start self-center">Optimize post timings to publish content at the perfect time for your audience.</p>
+    </div>
+
+    <div class="grid-item rounded-lg order-6 sm:order-5 flex flex-col gap-3 p-6 item-5 bg-white sm:col-start-2">
+      <div class="percentage font-bold sm:font-semi-bold text-4xl sm:text-6xl">>56%</div>
+      <p class="faster sm:text-xl">faster audience growth</p>
+      <img src="./assets/images/illustration-audience-growth.webp" class="sm:w-44 w-36 sm:mt-10" alt="bitmoji">
+    </div>
+
+    <div class="grid-item rounded-lg flex order-5 sm:order-6 flex-col sm:flex-row gap-8 sm:gap-3 px-12 sm:px-3 py-3 item-6 bg-[#7650DC] sm:col-span-2">
+      <img src="/assets/images/illustration-grow-followers.webp" class=" object-contain w-full" alt="graph2">
+      <h2 class="grow text-2xl sm:text-3xl sm:text-left text-center font-semibold text-white sm:self-center">Grow followers with non-stop content.</h2>
+    </div>
+
+    <div class="grid grid-item gap-6 item-7 order-7 sm:col-start-1 sm:row-start-1 sm:row-span-3">
+      <div class="grid-item rounded-lg sm:py-8 font-semibold flex flex-col gap-6 p-6 item-7.5 bg-[#faeee2] ">
+        <h2 class="create text-2xl sm:text-4xl sm:w-[80%]">Create and schedule content <span class="text-purple-600">quicker.</span> </h2>
+        <img src="./assets/images/illustration-create-post.webp" class="sm:w-full w-36" alt="click">
+      </div>
+
+      <div class="grid-item rounded-lg flex flex-col justify-between gap-3 p-6 item-7.5 bg-[#FFCB6B] ">
+        <h2 class="write text-2xl sm:text-4xl font-semibold w-[80%]">Write your content using AI.</h2>
+        <img src="/assets/images/illustration-ai-content.webp" class="sm:w-full w-44" alt="ai content">
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
