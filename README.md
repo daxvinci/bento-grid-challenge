@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution on frontend mentor](https://your-solution-url.com)
+- Live Site URL: [github pages bento grid](https://daxvinci.github.io/bento-grid-challenge)
 
 ### Built with
 
@@ -41,7 +41,7 @@ I learnt a little on how grid and overflow works.
 
 ## Author
 
-- Website - [Elivs Okoro](https://daxvinci.github.io/portfolio/)
+- Website - [Elvis Okoro](https://daxvinci.github.io/portfolio/)
 - Frontend Mentor - [@daxvinci](https://www.frontendmentor.io/profile/daxvinci)
 - Twitter - [@elvisveez](https://www.twitter.com/elvisveez)
 
